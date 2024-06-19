@@ -20,7 +20,7 @@ namespace Lag_hus
                 {
                     var room = new Room();
                     room.setRoom();
-                    if (noKitchenOrBath())
+                    if (noKitchenOrBath(room.type))
                     {
                         floor.Add(new Room(room.squareMeter, room.type, room.colorOnWalls));
                         continue;
@@ -31,12 +31,12 @@ namespace Lag_hus
             }
         }
 
-        private bool noKitchenOrBath()
+        private bool noKitchenOrBath(string type)
         {
             var check = true;
             foreach (var f in floor)
             {
-                if (f.type.Contains("kjøkken") || f.type.Contains("bad")) check = false;
+                if (f.type == "kjøkken" && type == "kjøkken" || f.type == "bad" && type == "bad") check = false;
             }
             return check;
         }

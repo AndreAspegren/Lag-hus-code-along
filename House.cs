@@ -47,6 +47,7 @@ Farge på veggene: {room.colorOnWalls}
 ");
                 }
             }
+            Console.ReadKey(true);
         }
     }
 }

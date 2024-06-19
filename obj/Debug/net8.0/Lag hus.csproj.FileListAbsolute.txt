@@ -13,3 +13,18 @@ C:\Media\Koding\C Sharp\Code Along lag hus\Lag hus\obj\Debug\net8.0\refint\Lag h
 C:\Media\Koding\C Sharp\Code Along lag hus\Lag hus\obj\Debug\net8.0\Lag hus.pdb
 C:\Media\Koding\C Sharp\Code Along lag hus\Lag hus\obj\Debug\net8.0\Lag hus.genruntimeconfig.cache
 C:\Media\Koding\C Sharp\Code Along lag hus\Lag hus\obj\Debug\net8.0\ref\Lag hus.dll
+C:\Media\Koding\C Sharp\Lag hus code along\bin\Debug\net8.0\Lag hus.exe
+C:\Media\Koding\C Sharp\Lag hus code along\bin\Debug\net8.0\Lag hus.deps.json
+C:\Media\Koding\C Sharp\Lag hus code along\bin\Debug\net8.0\Lag hus.runtimeconfig.json
+C:\Media\Koding\C Sharp\Lag hus code along\bin\Debug\net8.0\Lag hus.dll
+C:\Media\Koding\C Sharp\Lag hus code along\bin\Debug\net8.0\Lag hus.pdb
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.AssemblyInfoInputs.cache
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.AssemblyInfo.cs
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.csproj.CoreCompileInputs.cache
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.sourcelink.json
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.dll
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\refint\Lag hus.dll
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.pdb
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\Lag hus.genruntimeconfig.cache
+C:\Media\Koding\C Sharp\Lag hus code along\obj\Debug\net8.0\ref\Lag hus.dll
