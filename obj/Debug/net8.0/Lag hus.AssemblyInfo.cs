@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lag hus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c671d8af982d0d148916be17a7734f443f6a6c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3efe11e5ecffe62e620d00668232c10f1992962e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lag hus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lag hus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

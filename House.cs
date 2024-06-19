@@ -8,9 +8,9 @@ namespace Lag_hus
 {
     internal class House
     {
-        public List<List<Room>> allFloors;
+        public List<List<Room>> allFloors = new();
         public int numberOfFloors;
-        public void buildHouse()
+        async public void buildHouse()
         {
             while (true)
             {
@@ -27,13 +27,13 @@ namespace Lag_hus
                 }
                 else if (allFloors.Count > 0)
                 {
-                    displayHouse();
-                    break;
+                    await displayHouse();
+                    return;
                 }
             }
         }
 
-        public void displayHouse()
+        async public void displayHouse()
         {
             for(var i = 0; i < allFloors.Count; i++)
             {
