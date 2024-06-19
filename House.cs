@@ -10,7 +10,7 @@ namespace Lag_hus
     {
         public List<List<Room>> allFloors = new();
         public int numberOfFloors;
-        async public void buildHouse()
+        public void buildHouse()
         {
             while (true)
             {
@@ -27,13 +27,13 @@ namespace Lag_hus
                 }
                 else if (allFloors.Count > 0)
                 {
-                    await displayHouse();
+                    displayHouse();
                     return;
                 }
             }
         }
 
-        async public void displayHouse()
+        public void displayHouse()
         {
             for(var i = 0; i < allFloors.Count; i++)
             {
