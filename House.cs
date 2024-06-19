@@ -35,7 +35,7 @@ namespace Lag_hus
             numberOfFloors++;
         }
 
-        public void displayHouse()
+        private void displayHouse()
         {
             for(var i = 0; i < allFloors.Count; i++)
             {
