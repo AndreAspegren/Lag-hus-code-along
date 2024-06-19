@@ -18,19 +18,21 @@ namespace Lag_hus
                 Console.WriteLine(
                     $"Du har nå {numberOfFloors} etasjer på huset ditt? Trykk 1 for å lage flere, alt annet for å fullføre huset og vise det fram.");
                 var input = Console.ReadLine();
-                if (input == "1")
-                {
-                    var thisFloor = new Floor();
-                    thisFloor.addRooms();
-                    allFloors.Add(thisFloor.floor);
-                    numberOfFloors++;
-                }
+                if (input == "1") buildFloor();
                 else if (allFloors.Count > 0)
                 {
                     displayHouse();
                     return;
                 }
             }
+        }
+
+        private void buildFloor()
+        {
+            var thisFloor = new Floor();
+            thisFloor.addRooms();
+            allFloors.Add(thisFloor.floor);
+            numberOfFloors++;
         }
 
         public void displayHouse()
