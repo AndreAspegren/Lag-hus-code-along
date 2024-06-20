@@ -28,11 +28,11 @@ namespace Lag_hus
             Console.WriteLine("Hvor stort er det i m^2?");
             squareMeter = Console.ReadLine();
 
-            Console.WriteLine("Hvilket type rom er det?");
-            type = Console.ReadLine();
-
             Console.WriteLine("Hvilket farge er det på veggene?");
             colorOnWalls = Console.ReadLine();
+
+            Console.WriteLine("Hvilket type rom er det?");
+            type = Console.ReadLine();
         }
     }
 }
