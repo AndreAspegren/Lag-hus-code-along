@@ -1,3 +1,5 @@
 ﻿using Lag_hus;
 
-new House().buildHouse();
+while (true) new House().buildHouse();
+
+

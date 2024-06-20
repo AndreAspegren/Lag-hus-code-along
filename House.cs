@@ -10,6 +10,7 @@ namespace Lag_hus
     {
         public List<List<Room>> allFloors = new();
         public int numberOfFloors;
+
         public void buildHouse()
         {
             while (true)
@@ -18,12 +19,9 @@ namespace Lag_hus
                 Console.WriteLine(
                     $"Du har nå {numberOfFloors} etasjer på huset ditt? Trykk 1 for å lage flere, alt annet for å fullføre huset og vise det fram.");
                 var input = Console.ReadLine();
+
                 if (input == "1") buildFloor();
-                else if (allFloors.Count > 0)
-                {
-                    displayHouse();
-                    return;
-                }
+                else if (allFloors.Count > 0) displayHouse();
             }
         }
 
