@@ -9,7 +9,6 @@ namespace Lag_hus
     internal class House
     {
         public List<List<Room>> allFloors = new();
-        public int numberOfFloors;
 
         public void buildHouse()
         {
@@ -17,7 +16,7 @@ namespace Lag_hus
             {
                 Console.Clear();
                 Console.WriteLine(
-                    $"Du har nå {numberOfFloors} etasjer på huset ditt? Trykk 1 for å lage flere, alt annet for å fullføre huset og vise det fram.");
+                    $"Du har nå {allFloors.Count} etasjer på huset ditt? Trykk 1 for å lage flere, alt annet for å fullføre huset og vise det fram.");
                 var input = Console.ReadLine();
 
                 if (input == "1") buildFloor();
@@ -30,7 +29,6 @@ namespace Lag_hus
             var thisFloor = new Floor();
             thisFloor.addRooms();
             allFloors.Add(thisFloor.floor);
-            numberOfFloors++;
         }
 
         private void displayHouse()
