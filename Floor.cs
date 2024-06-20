@@ -15,7 +15,7 @@ namespace Lag_hus
             while (floor.Count < 5)
             {
                 Console.Clear();
-                Console.WriteLine($"Skriv ja for å legge til et rom? Du er på rom {floor.Count} av 5");
+                Console.WriteLine($"Skriv ja for å legge til et rom? Du har satt {floor.Count} av 5 rom");
                 if (Console.ReadLine() == "ja")
                 {
                     var room = new Room();
