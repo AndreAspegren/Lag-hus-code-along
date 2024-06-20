@@ -8,9 +8,9 @@ namespace Lag_hus
 {
     internal class Room
     {
-        public string squareMeter { get; private set; }
-        public string type { get; private set; }
-        public string colorOnWalls { get; private set; }
+        public string squareMeter { get;  set; }
+        public string type { get;  set; }
+        public string colorOnWalls { get;  set; }
 
         public Room(string squaremeter, string Type, string coloronwalls)
         {
